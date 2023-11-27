@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="img/logo.ico">
+
+<title>Login</title>
+<link rel="stylesheet" href="cad.css">
+</head>
+<body>
+	<div class="container">
+		<div class="buttonsForm">
+			<div class="btnColor"></div>
+			<button id="btnSignin">Login</button>
+			<button id="btnSignup">Cadastro</button>
+		</div>
+
+		<form id="signin">
+			<input type="text" placeholder="Email" required /> <i
+				class="fas fa-envelope iEmail"></i> <input type="password"
+				placeholder="Senha" required /> <i class="fas fa-lock iPassword"></i>
+			<div class="divCheck">
+				<input type="checkbox" /> <span>Salvar senha</span>
+			</div>
+			<button type="submit">Logar</button>
+		</form>
+
+		<form id="signup">
+			<input type="text" placeholder="Email" required /> <i
+				class="fas fa-envelope iEmail"></i> <input type="password"
+				placeholder="Senha" required /> <i class="fas fa-lock iPassword"></i>
+			<input type="password" placeholder="Confirmar senha" required /> <i
+				class="fas fa-lock iPassword2"></i>
+			<div class="divCheck">
+				<input type="checkbox" required /> <span>Termos de uso</span>
+			</div>
+			<button type="submit">Cadastrar</button>
+		</form>
+	</div>
+
+	<script src="cad.js"></script>
+</body>
+</html>
